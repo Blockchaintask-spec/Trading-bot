@@ -1,0 +1,48 @@
+{
+  "name": "pancakeswap-random-trade",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.18",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "ethers": "^5.4.6",
+    "express-ws": "^5.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-notifications": "^1.7.2",
+    "react-scripts": "5.0.1",
+    "request": "^2.88.2",
+    "sequelize": "^5.18.0",
+    "sqlite3": "^5.1.6",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.3.0",
+    "web3-validator": "^2.0.3"
+  },
+  "scripts": {
+    "start": "npm run start:server | react-scripts --openssl-legacy-provider start --kill-others --kill-others-on-fail",
+    "start:server": "node server/app.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
